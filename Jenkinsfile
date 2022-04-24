@@ -10,7 +10,7 @@ pipeline {
     stage ('sample2'){
         steps{
         echo 'Using maven'
-        bat 'mvn package'
+       
         }
     }
 }
