@@ -4,7 +4,7 @@ pipeline {
     stage ('sample1'){
         steps{
         echo 'Building...'
-        bat 'python part1.py'
+        bat 'python.py'
             }
     }
     stage ('sample2'){
